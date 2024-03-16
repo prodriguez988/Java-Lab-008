@@ -51,9 +51,9 @@ A(m,n) = | A(m − 1, 1)           if m > 0 and n = 0
           * Note the return value gets very big very quickly. You should try it only for small values of m and n (not bigger than 3).
         
 3. Write a recursive method called **power** that takes a double x and an integer n and returns xn.
-    * Hint: A recursive definition of this operation is $ x^n = x * x^(n−1) $.
+    * Hint: A recursive definition of this operation is $$x^n = x \cdot x^{(n-1)}$$
     * Also, remember that anything raised to the zeroth power is 1.
-    * Optional challenge: you can make this method more efficient, when n is even, using $ x^n = (x^(n/2))^2 $.
+    * Optional challenge: you can make this method more efficient, when n is even, using $$x^n = \left(x^{\frac{n}{2}}\right)^2$$
 
 4. Write a method called **maxInRange** that takes an array of integers and two indexes, lowIndex and highIndex, and finds the maximum value in the array, but considering only the elements between lowIndex and highIndex, including both.
     * This method should be recursive.
